@@ -20,9 +20,7 @@ public class array_list2 {
        arr.add(1);
        arr.add(2);
        arr.add(3);
-       
-       
-       for(int i=0;i<arr.size();i++)
+             for(int i=0;i<arr.size();i++)
        {
            System.out.print("["+arr.get(i)+"]");
        }
@@ -69,5 +67,7 @@ public class array_list2 {
           }
           System.out.println(" ");
          
+          
+          
     }
 }

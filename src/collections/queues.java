@@ -15,6 +15,8 @@ import java.util.Queue;
 public class queues {
     public static void main(String[] args) {
         Queue<String> qu=new LinkedList<>();
+           //queues refernce var can hold its child classes reference;
+           
         qu.add("first");
         qu.add("second");
         qu.add("third");

@@ -14,7 +14,7 @@ import java.util.ArrayDeque;
 public class array_dequeues {
     public static void main(String[] args) {
         ArrayDeque<String> aque=new ArrayDeque<>();
-        aque.push("first");
+        aque.push("first"); 
         aque.push("fourth");
         aque.push("seventh");
         while(!aque.isEmpty())

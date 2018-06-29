@@ -14,7 +14,7 @@ import java.util.TreeSet;
  */
 public class tree_set2 {
     public static void main(String[] args) {
-        TreeSet<String> tset=new TreeSet<>(new descending());
+        TreeSet<String> tset=new TreeSet<>(new descending());//pass the descendingclass  in its constructor
         tset.add("first");
         tset.add("second");
         tset.add("anish");

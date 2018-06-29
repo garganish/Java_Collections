@@ -5,33 +5,21 @@
  */
 package collections;
 
-import java.util.Comparator;
-
 /**
  *
  * @author anishgarg
  */
-public class student2 implements Comparable<student2>
-{
+public class students {
     private int rollno;
     private String name;
 
-     @Override
-     //override the method 
-    public int compareTo(student2 o) {
-        return name.compareTo(o.getName());      
-        // compare on the basis of the name
-        // mention explicitly
-       // throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    public students()
+    {
+        
     }
-    public student2(int rollno, String name) {
+    public students(int rollno, String name) {
         this.rollno = rollno;
         this.name = name;
-    }
-
-    @Override
-    public String toString() {
-        return "student2{" + "rollno=" + rollno + ", name=" + name + '}';
     }
 
     public int getRollno() {
@@ -50,9 +38,9 @@ public class student2 implements Comparable<student2>
         this.name = name;
     }
 
-   
-    
-
-    
+    @Override
+    public String toString() {
+        return "students{" + "rollno=" + rollno + ", name=" + name + '}';
+    }
     
 }
